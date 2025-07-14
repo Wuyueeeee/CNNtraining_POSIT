@@ -15,12 +15,21 @@ $ git clone https://github.com/gonced8/universal.git
 ### Download appropriate PyTorch for C++ (LibTorch) and unzip also inside include folder
 https://pytorch.org/get-started/locally/
 
+### Download dataset
+```bash
+$ cd CNNtraining_POSIT/dataset
+$ chmod +x download.sh
+$ ./download.sh
+```
+
 ### Build the project
 ```bash
 $ mkdir build; cd build
 $ cmake .. -DCMAKE_PREFIX_PATH="/path/to/libtorch"
 $ make
 ```
+
+
 ## 2. Test
 ```bash
 $ ./train_float
