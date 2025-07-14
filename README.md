@@ -15,8 +15,9 @@ https://pytorch.org/get-started/locally/
 $ mkdir build; cd build
 $ cmake .. -DCMAKE_PREFIX_PATH="/path/to/libtorch"
 $ make
-
+```
 ## 2. Test
 ```bash
 $ ./train_float
 $ ./train_posit
+```
