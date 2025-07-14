@@ -1,5 +1,6 @@
 ## 1. Setup
 ### Clone the repositories:
+```bash
 $ git clone https://github.com/Wuyueeeee/CNNtraining_POSIT.git
 
 $ cd CNNtraining_POSIT
@@ -16,5 +17,6 @@ $ cmake .. -DCMAKE_PREFIX_PATH="/path/to/libtorch"
 $ make
 
 ## 2. Test
+```bash
 $ ./train_float
 $ ./train_posit
